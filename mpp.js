@@ -24,3 +24,6 @@ function encuesta(){
         } 
     }
 }
+function funcionCalentar(){
+    alert ("te estoy calentando 🥵")
+}
