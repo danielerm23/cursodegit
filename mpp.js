@@ -1,6 +1,11 @@
 let frio=document.getElementById("frio")
-frio.addEventListener('click', funcionRespuesta)
+let fuego=document.getElementById("fuego")
+frio.addEventListener('click', funcionEnfriar)
+fuego.addEventListener('click', funcionCalentar)
 
-function funcionRespuesta(){
+function funcionEnfriar(){
     alert ("soplandote")
+}
+function funcionCalentar(){
+    alert ("te estoy calentando 🥵")
 }
