@@ -1,9 +1,17 @@
 let frio=document.getElementById("frio")
-frio.addEventListener('click', funcionRespuesta)
+let fuego=document.getElementById("fuego")
+frio.addEventListener('click', funcionEnfriar)
+fuego.addEventListener('click', funcionCalentar)
 
-function funcionRespuesta(){
+function funcionEnfriar(){
     alert ("soplandote")
-    
+    encuesta
+}
+function funcionCalentar(){
+    alert ("te estoy calentando 🥵")
+    encuesta
+}
+function encuesta(){
     let con=0
     while (con==0){
         let respuesta=prompt ("te gustó ? 😏 si o no?")
@@ -13,7 +21,6 @@ function funcionRespuesta(){
         } else if (respuesta == "no"){
             alert("ni modo que me importara gonorrea pirob@")
             con=1
-        }
-        
+        } 
     }
 }
