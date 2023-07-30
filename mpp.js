@@ -5,11 +5,11 @@ fuego.addEventListener('click', funcionCalentar)
 
 function funcionEnfriar(){
     alert ("soplandote")
-    encuesta
+    encuesta()
 }
 function funcionCalentar(){
     alert ("te estoy calentando 🥵")
-    encuesta
+    encuesta()
 }
 function encuesta(){
     let con=0
@@ -23,7 +23,4 @@ function encuesta(){
             con=1
         } 
     }
-}
-function funcionCalentar(){
-    alert ("te estoy calentando 🥵")
 }

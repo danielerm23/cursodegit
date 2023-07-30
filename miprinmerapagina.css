@@ -12,7 +12,7 @@ body{
     border: 2px solid darkcyan
 }
 .espacioentrelineas {
-    margin:2px;
+    margin: 37px;
 }
 h1 {
     display: flex;
@@ -24,7 +24,8 @@ h1 {
 }
 #contenedor2{
     display: flex;
-    text-align: left;
+    box-sizing: border-box;
+    padding: 20px;
 }
 #contenedor3{
     display: flex;
