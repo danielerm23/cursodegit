@@ -1,5 +1,5 @@
 body{
-    background: rgb(209, 160, 160);
+    background: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 0, 255);
     text-align: center;
@@ -18,9 +18,9 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(255, 220, 239);
+    background-color: rgb(173, 93, 137);
     height: 100px;
-    box-shadow: 5 5 5 5 black;
+    
 }
 #contenedor2{
     display: flex;
